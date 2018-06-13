@@ -9,4 +9,12 @@
     <PackageReference Include="WW.Cad.NetStandard" Version="1.0.0-rc4" />
     <PackageReference Include="WW.NetStandard" Version="1.0.0-rc4" />
   </ItemGroup>
+  <ItemGroup>
+    <None Update="Zimmertyp_1_.dwg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Zimmertyp_2_.dwg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
