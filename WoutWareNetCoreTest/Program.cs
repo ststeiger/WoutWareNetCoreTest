@@ -10,10 +10,9 @@ namespace WoutWareNetCoreTest
         static void Main(string[] args)
         {
             WW.WWLicense.SetLicense("AQAAAG8k3LVHqvLi1bJYXpQFgmtG/MRWYZcdrTG2MlOUb1E3Pe/4mkhuVSyJ6eXKeGH5jY9kSEBa94uYpww4TBqiLMFVTgOI9z5+ZRTZJ5szezpYXlMvpVuAmXb2EWGMUYcdWKYP0WMTGDTStjaKqQZGA4f0rpKYak0D1/n/6GWpPYEp");
-
-            string filename = @"/root/github/WoutWareNetCoreTest/WoutWareNetCoreTest/Zimmertyp_1_.dwg";
-            filename = @"/root/github/WoutWareNetCoreTest/WoutWareNetCoreTest/Zimmertyp_2_.dwg";
             
+            string filename = @"Zimmertyp_1_.dwg";
+            filename = @"Zimmertyp_2_.dwg";
             
             // apt-file search Arimo-Regular.ttf
             //     ==> fonts-croscore
@@ -29,7 +28,8 @@ namespace WoutWareNetCoreTest
             {
                 model = WW.Cad.IO.DwgReader.Read(filename);
                 /*
-                System.Exception: Could not find font Arimo-Regular.ttf or any of the fallback fonts Arimo-Regular.ttf, Arimo-Regular.ttf.
+System.Exception: Could not find font Arimo-Regular.ttf or any of the fallback fonts 
+Arimo-Regular.ttf, Arimo-Regular.ttf.
   at at .(String , Boolean , Boolean , FontFamily& , FontStyle& )
   at at .(String , Boolean , Boolean , FontFamily& , FontStyle& )
   at at ...ctor(String , Boolean , Boolean )
@@ -57,8 +57,9 @@ namespace WoutWareNetCoreTest
   at at WW.Cad.IO.DwgReader.Read()
   at at WW.Cad.IO.DwgReader.Read(String filename, ProgressEventHandler progressEventHandler)
   at at WW.Cad.IO.DwgReader.Read(String filename)
-  at WoutWareNetCoreTest.Program.Main(String[] args) in /root/github/WoutWareNetCoreTest/WoutWareNetCoreTest/Program.cs:30
-                 */
+  at WoutWareNetCoreTest.Program.Main(String[] args) 
+in /root/github/WoutWareNetCoreTest/WoutWareNetCoreTest/Program.cs:30
+                */
             }
             else
             {
@@ -69,10 +70,10 @@ namespace WoutWareNetCoreTest
             
             // uname -a
             // Linux asshat 4.4.0-128-generic #154-Ubuntu SMP Fri May 25 14:15:18 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+            
             // lsb_release -a
-            // Distributor ID:	Ubuntu
             // Description:	Ubuntu 16.04.4 LTS
-            // Release:	16.04
+            // Release:	    16.04
             // Codename:	xenial
             
             System.Console.WriteLine(System.Environment.NewLine);
