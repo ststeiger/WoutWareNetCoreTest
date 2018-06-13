@@ -1,0 +1,17 @@
+Generate a new strong name key (sign your application with this key):
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\x64\sn.exe" -k MyKeyPair.snk
+
+Extract the public key file from the strong name key (which is a key pair):	
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\x64\sn.exe" -p MyKeyPair.snk MyPublicKey.snk
+
+Display the public key token for the public key:	
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\x64\sn.exe" -t MyPublicKey.snk
+
+Öffentliches Schlüsseltoken: 4886b8fa5fe7aa52
+
+
+
+AQAAAB5faUePgy34aIXzCXTJiMhQ2/OXtPyjkaa/ssuABkIk79U7tcIi2AO/LDz4JuVoOm1Y0sb/970ICdzq50D+sVmtP46Y69nCNfORFTBJux8IL5vO8PYjBj1/EAf8wnvmmvj2+1rUCRimrpXQrbc5oJkHaQDf699URGxiXn61UCcK
+
+
+AQAAAG8k3LVHqvLi1bJYXpQFgmtG/MRWYZcdrTG2MlOUb1E3Pe/4mkhuVSyJ6eXKeGH5jY9kSEBa94uYpww4TBqiLMFVTgOI9z5+ZRTZJ5szezpYXlMvpVuAmXb2EWGMUYcdWKYP0WMTGDTStjaKqQZGA4f0rpKYak0D1/n/6GWpPYEp
