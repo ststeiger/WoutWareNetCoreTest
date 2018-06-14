@@ -1,7 +1,9 @@
 {
   "TrueTypeFontDirs": {
     "Windows": [
-      "%WINDIR%/Fonts" 
+      "%WINDIR%/Fonts",
+      "C:\\Windows\\Fonts",
+      "C:\\Users\\Administrator\\Documents\\Visual Studio 2017\\Projects\\WoutWareNetCoreTest\\WoutWareNetCoreTest\\Fonts"
     ],
     "Linux": [
       "~/.fonts/",
