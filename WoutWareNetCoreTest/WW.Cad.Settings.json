@@ -1,0 +1,25 @@
+{
+  "TrueTypeFontDirs": {
+    "Windows": [
+      "%WINDIR%/Fonts" 
+    ],
+    "Linux": [
+      "~/.fonts/",
+      "/usr/local/share/fonts/",
+      "/usr/share/fonts/",
+      "/usr/share/fonts/truetype/croscore/"
+    ],
+    "OSX": [
+      "~/Library/Fonts/",
+      "/Library/Fonts/",
+      "/Network/Library/Fonts/",
+      "/System/Library/Fonts/",
+      "/System Folder/Fonts/"
+    ]
+  },
+  "ShxFontDirs": {
+    "Windows": [],
+    "Linux": [],
+    "OSX": []
+  }
+}
