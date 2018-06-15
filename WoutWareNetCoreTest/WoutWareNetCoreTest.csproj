@@ -6,8 +6,8 @@
     <AssemblyOriginatorKeyFile>StrongNameKeys\MyKeyPair.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="WW.Cad.NetStandard" Version="1.0.0-rc5" />
-    <PackageReference Include="WW.NetStandard" Version="1.0.0-rc5" />
+    <PackageReference Include="WW.Cad.NetStandard" Version="1.0.0-rc7" />
+    <PackageReference Include="WW.NetStandard" Version="1.0.0-rc7" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Zimmertyp_1_.dwg">
